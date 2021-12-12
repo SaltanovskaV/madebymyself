@@ -1,0 +1,258 @@
+/*font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;*/
+
+html {
+  font-size: 16px;
+}
+body {
+  margin: 0;
+  font-family: "Roboto Slab", serif;
+}
+/*тз 2 пункт */
+.background {
+  background-image: url(glass.png), url(321.jpg);
+  min-height: 100vh;
+  background-color: #59a3c4;
+  padding: 0;
+  background-repeat: no-repeat;
+  margin: auto;
+  background-position: right top, center;
+  background-size: 128px, cover;
+}
+/*тз 3 пункт*/
+.main-container {
+  width: 100%;
+  max-width: 1280px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  margin: auto;
+}
+.container {
+  padding: 20px;
+  max-width: 1280px;
+  margin: auto;
+}
+/*тз 4 пункт*/
+.link {
+  color: #fff;
+  background: rgb(50, 205, 58);
+  font-family: "Roboto Slab", serif;
+  font-size: 35px;
+  display: block;
+  padding: 10px 15px;
+  letter-spacing: 0.1rem;
+  border-radius: 7px;
+  transition: 0.5s;
+  box-shadow: 2px 2px green;
+}
+
+.link:hover {
+  background-color: tomato;
+  transform: scale(1.2);
+}
+
+/*тз 5 пункт. Articles*/
+.font-type {
+  font-family: "Roboto Slab", serif;
+  color: rgb(107, 71, 47);
+  border-bottom: 7px solid darkslateblue;
+  text-shadow: rgb(50, 205, 58) 2px 2px 2px;
+  font-weight: 300;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+.b-g {
+  font-family: "Roboto Slab", serif;
+  background-color: lightgray;
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.underline {
+  color: #fff;
+  text-decoration: underline;
+}
+.underline:hover {
+  text-decoration: none;
+  color: black;
+}
+.changecolor {
+  color: grey;
+}
+
+/*menu*/
+.navbar {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: powderblue;
+  border-radius: 7px;
+}
+.navbar-list {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 10px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.page-name {
+  padding-left: 30px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  margin-top: 0;
+  color: rgb(220, 245, 230);
+  font-size: 3rem;
+  text-decoration: underline;
+}
+/*тз 6 пункт*/
+.decoration {
+  margin: 0px;
+  padding: 30px;
+  background-color: lightgray;
+}
+.text-align {
+  text-align: center;
+}
+.letter::first-letter {
+  color: red;
+  font-weight: bold;
+  font-size: 2rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+/*тз 7 пункт*/
+.set-box {
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 7px;
+}
+.category {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: palevioletred;
+  width: 350px;
+  font-size: 25px;
+  padding: 30px;
+  list-style-type: none;
+  font-size: 30px;
+  line-height: 2em;
+}
+.sub-category {
+  background-color: lightskyblue;
+  width: 280px;
+  font-size: 15px;
+  padding: 15px;
+  list-style-type: none;
+  font-size: 20px;
+  line-height: 2em;
+}
+/*тз 8 пункт*/
+.new::after {
+  content: "new";
+  color: #fff;
+  background-color: orange;
+  font-size: 90%;
+  padding: 2px;
+}
+/*тз 9 пункт*/
+.background-new {
+  background-image: url(phon-gallery.jpg);
+  background-size: 300px;
+  background-repeat: repeat;
+  min-height: 100vh;
+  padding: 0;
+  margin: auto;
+}
+
+.border {
+  border: 5px solid darkblue;
+  border-radius: 7px;
+  border-style: dotted;
+  box-sizing: border-box;
+}
+.border:hover {
+  border: none;
+}
+
+/*тз 10 пункт*/
+input[type="radio"]:hover,  /*не работает!(((*/
+input[type="checkbox"]:hover {
+  border: 5px solid black;
+  border-style: dotted;
+}
+input[type="text"] {
+  text-transform: capitalize;
+}
+
+/*форма регистрации*/
+
+fieldset {
+  margin: 10px auto;
+  padding: 10px;
+  background-color: antiquewhite;
+  max-width: 500px;
+  border-radius: 14px;
+  border: 1px solid grey;
+}
+
+legend {
+  padding: 10px;
+  margin: 5px;
+  font-size: 25px;
+  text-decoration: underline;
+  color: darkblue;
+}
+.btn,
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  border-radius: 7px;
+  border: 1px solid grey;
+}
+textarea {
+  resize: vertical;
+  min-height: 100px;
+  max-height: 50vh;
+}
+input[type="file"] {
+  padding: 0;
+  border: none;
+  border-radius: 0;
+}
+.form-group {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  width: auto;
+}
+
+button[type="submit"],
+button[type="reset"] {
+  font-size: 20px;
+  margin-right: 20px;
+  margin-bottom: 15px;
+}
+.decoration-contacts,
+.decoration-gallery,
+.copyright {
+  text-align: center;
+}
+.articles {
+  padding: 20px;
+}
+.decoration-gallery {
+  padding: 20px;
+}
+.container-f {
+  color: darkorchid;
+}
